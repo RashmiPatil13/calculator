@@ -1,0 +1,105 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.heading{
+  font-family: Montserrat;
+font-size: 36px;
+font-weight: 700;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.main{
+
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 180px;
+  /* box-shadow: 5px 5px 20px red; */
+  box-shadow: -30px 20px 100px 10px #FB184E78 ,30px -20px 102px 20px rgb(111, 111, 214);
+  /* box-shadow: 5px -7px 2px 2px blue, -5px 5px 5px 5px pink */
+ margin-left: 600px;
+  width: 300px;
+  height: 350px;
+  border-radius: 30px;
+}
+.input{
+width: 250px;
+height: 40px;
+margin-top: 30px;
+left: 551px;
+font-weight: bolder; 
+border: 2px solid #2B2B2B;
+
+}
+.input1{
+  width: 250px;
+  height: 40px;
+  margin-top: 10px;
+  left: 551px;
+  font-weight: bolder; 
+  border: 2px solid #2B2B2B;
+  }
+  ::placeholder {
+    color: black;
+  }
+  button{
+   width: 40px;
+   height: 40px;
+   margin-top: 30px;
+   background-color: #2B2B2B;
+   color: white;
+   /* margin: 10px; */
+   margin-left: 10px;
+   margin-right: 10px;
+  
+   
+  }
+  .status{
+    color: red;
+     margin-left: 25px;
+  }
+  .success{
+    color:  #0057FF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    
+    
+  }
+  .result{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+
+  }
+  .message{
+    font-weight: bolder; 
+    margin-top: 10px;
+  }
+  @media only screen and (max-width: 480px) {
+    .main {
+      width: 100%;
+      /* margin: 400px; */
+      justify-content: center;
+      align-items: center;
+      /* margin-left: 400px; */
+      margin-left: 30px;
+      /* text-align: center; */
+      
+    }
+  }
