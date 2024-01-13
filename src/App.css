@@ -93,13 +93,11 @@ border: 2px solid #2B2B2B;
   }
   @media only screen and (max-width: 480px) {
     .main {
-      width: 100%;
-      /* margin: 400px; */
+      width: 80%;
+      /* margin: 35px; */
       justify-content: center;
       align-items: center;
-      /* margin-left: 400px; */
-      margin-left: 30px;
-      /* text-align: center; */
-      
+     /* margin-right: 20px; */
+        margin-left: 33px;
     }
   }
